@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumar Tres Enteros</title>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <form id="form1">
+        <label for="txtNumero1">Número 1</label>
+        <br>
+        <input type="number" name="txtNumero1" id="txtNumero1" required />
+        <br>    
+        <label for="txtNumero2">Número 2</label>
+        <br>
+        <input type="number" name="txtNumero2" id="txtNumero2" required />
+        <br>
+        <label for="txtNumero3">Número 3</label>
+        <br>
+        <input type="number" name="txtNumero3" id="txtNumero3" required />
+        <br>
+        <button type="submit">Calcular</button>
+    </form>
+    <div id="outputResultado"></div>
+    
+    <!-- Incluye el archivo de prueba QUnit para realizar las pruebas -->
+    <script src="https://code.jquery.com/qunit/qunit-2.17.2.js"></script>
+    <script src="function-test.js" defer></script>
+</body>
+</html>
